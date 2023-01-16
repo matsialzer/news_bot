@@ -1,0 +1,184 @@
+INFO:root:An INFO
+WARNING:root:A WARNING
+ERROR:root:An ERROR
+CRITICAL:root:A message of CRITICAL severity
+INFO:telethon.network.mtprotosender:Connecting to 149.154.167.51:443/TcpFull...
+INFO:telethon.network.mtprotosender:Connection to 149.154.167.51:443/TcpFull complete!
+INFO:telethon.client.updates:Got difference for channel 1822512320 updates
+INFO:root:new event
+INFO:root:{"success":true,"data":"Yangilik muvaffaqiyatli qo'shildi!","message":"ok"}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1170166518) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+AttributeError: 'PeerUser' object has no attribute 'channel_id'
+INFO:root:new event
+INFO:root:{"success":false,"message":"body bo'limi to'ldirilmagan. (and 1 more error)","errors":{"body":["body bo'limi to'ldirilmagan."],"source":["Ushbu source tizimda mavjud."]},"data":null}
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+AttributeError: 'PeerUser' object has no attribute 'channel_id'
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1108096376) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1108096376) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1108096376) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1108096376) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+ERROR:telethon.client.updates:Unhandled exception on handler
+Traceback (most recent call last):
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/updates.py", line 497, in _dispatch_update
+    await callback(event)
+  File "/home/itachi/PycharmProjects/FastParser/logic/bot.py", line 13, in handler
+    channelData = await client.get_entity(event.message.peer_id.channel_id)
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 292, in get_entity
+    inputs.append(await self.get_input_entity(x))
+  File "/home/itachi/PycharmProjects/FastParser/venv/lib/python3.10/site-packages/telethon/client/users.py", line 466, in get_input_entity
+    raise ValueError(
+ValueError: Could not find the input entity for PeerUser(user_id=1108096376) (PeerUser). Please read https://docs.telethon.dev/en/stable/concepts/entities.html to find out more details.
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"body bo'limi to'ldirilmagan. (and 1 more error)","errors":{"body":["body bo'limi to'ldirilmagan."],"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:root:new event
+INFO:root:{"success":false,"message":"Ushbu source tizimda mavjud.","errors":{"source":["Ushbu source tizimda mavjud."]},"data":null}
+INFO:telethon.network.mtprotosender:Disconnecting from 149.154.167.51:443/TcpFull...
+INFO:telethon.network.mtprotosender:Disconnection from 149.154.167.51:443/TcpFull complete!
+INFO:telethon.network.mtprotosender:Not disconnecting (already have no connection)
