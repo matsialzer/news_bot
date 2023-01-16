@@ -10,6 +10,7 @@ def send(username, event, logging):
         image = "none"
 
     payload = {
+        'site': 'telegram',
         'title': 'bot',
         'label': 'bot',
         'body': event.text,
