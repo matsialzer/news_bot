@@ -1,25 +1,23 @@
 import requests
+
 from logic.settings import *
 
 
-def send(event):
-    print("\n ========= new event =========")
-    image = 'e'
+def send(username, event, logging):
     try:
-        source = 'https://t.me/c/{0}/{1}'.format(event.message.peer_id.channel_id, event.id)
+        image = event.photo.id
     except AttributeError:
-        source = ''
+        image = "none"
+
     payload = {
         'title': 'bot',
         'label': 'bot',
         'body': event.text,
-        'source': source,
+        'source': 'https://t.me/{0}'.format(username),
         'img': image
     }
     files = []
     headers = {'api-key': API_KEY}
-
     response = requests.request("POST", API_URL, headers=headers, data=payload, files=files)
-    print(event.text)
-    print(response.text)
-    print("\n =============================")
+    logging.info('new event')
+    logging.info(response.text)
