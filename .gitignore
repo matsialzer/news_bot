@@ -1,3 +1,5 @@
 *.session
 config.inis
 logic/__pycache__/*
+py_log.log
+img/*
